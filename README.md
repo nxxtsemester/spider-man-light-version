@@ -1,4 +1,3 @@
-# spider-man-themed
 A spider-man themed ao3 site skin :)
 
 How to set a site skin:
