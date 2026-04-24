@@ -1,0 +1,181 @@
+#header {
+  background-image: url("https://i.pinimg.com/1200x/fb/61/6d/fb616d999888d44be61cee776f22ab14.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #35455e;
+}
+
+#header .logo,
+#header h1 sup {
+  display: none !important;
+}
+
+#header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15em;
+  margin: 0;
+}
+
+#header h1 a::before {
+  content: "Spider-Verse";
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  font-variant: small-caps;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+#header h1 a span {
+  display: none !important;
+}
+
+#main a,
+#greeting a.dropdown-toggle,
+#header .actions a {
+  color: #35455e !important;
+}
+
+#main a:hover {
+  background: #5b6f8c;
+  color: #e2e0df !important;
+}
+
+#greeting .menu,
+#header .dropdown .menu,
+#header .dropdown:hover a {
+  background: #cfcbc9;
+  color: #35455e !important;
+  border-color: #9c342b;
+}
+
+#greeting {
+  background-color: rgba(226, 224, 223, 0.75) !important;
+  padding: 0.3em 0.6em !important;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(98, 150, 255, 0.3);
+  display: inline-block;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.heading a,
+.userstuff,
+.heading,
+#heading h3,
+.splash .module h3 {
+  color: #35455E;
+}
+
+.listbox>.heading {
+  color: #5B6F8C;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.listbox .index {
+  background: #E2E0DF;
+}
+
+#footer.region {
+  background-image: url("https://i.pinimg.com/736x/a5/43/b0/a543b087ed4c13c4e5609709490e1988.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #35455E;
+}
+
+.comment .icon .visitor {
+  background: url(/images/imageset.png) no-repeat -1px -76px;
+  padding: 0px;
+  margin: 5px;
+}
+
+.comment fieldset {
+  border: 0px;
+}
+
+.comment div.icon {
+  border-bottom: 0px;
+}
+
+#dashboard {
+  border: 1px solid #090D13 !important;
+  padding: 0.5em 0;
+  border-radius: 0.em;
+  margin-left: 10px;
+  background: #5B6F8C !important;
+}
+
+#header .primary {
+  background: #b2aca9;
+}
+
+#dashboard .actions a,
+#dashboard .actions a:visited {
+  color: #090d13 !important;
+}
+
+#dashboard .actions .current {
+  color: #eeeeee !important;
+  background: #35455e;
+}
+
+.required-tags .rating-notrated,
+.required-tags .rating-general-audience,
+.required-tags .rating-explicit,
+.required-tags .rating-mature,
+.required-tags .rating-teen,
+.required-tags .category-femslash,
+.required-tags .category-gen,
+.required-tags .category-slash,
+.required-tags .category-none,
+.required-tags .category-het,
+.required-tags .category-multi,
+.required-tags .category-other,
+.required-tags .complete-no,
+.required-tags .complete-yes,
+.required-tags .warning-yes,
+.required-tags .warning-no,
+.required-tags .warning-choosenotto,
+.required-tags .external-work,
+.status .private .text,
+.status .public,
+.status .hidden,
+.status .rec,
+.status .count,
+.index .skins .icon,
+.index .mystery .icon,
+.index .tag .icon,
+.index .tagset .icon,
+.comment .icon .anonymous,
+.comment .icon .visitor,
+.abbreviated .icon .visitor,
+.abbreviated .icon .anonymous,
+.skins .primary .icon,
+.admin .primary .icon,
+.tagset .primary .icon,
+.tag .primary .icon,
+a.rss span,
+p.kudos,
+#symbols-key dl img,
+#bookmark-symbols-key img,
+img[src$="/images/skins/iconsets/default/icon_user.png"],
+img[src$="/images/skins/iconsets/default/icon_collection.png"] {
+  background-image: url("https://i.ibb.co/ycDk0pzP/Zerafina-AO3-imageset-muted.png");
+  background-size: 200px 835px;
+}
+
+p.muted.notice {
+  display: none;
+}
+
+.blurb#work_76315101 {
+  display: none;
+}
